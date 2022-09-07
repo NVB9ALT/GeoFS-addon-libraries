@@ -1,3 +1,5 @@
+//Credit to AriakimTaiyo for creating this function.
+
 //getBearing takes four inputs: sourceLla[0], sourceLla[1], targetLla[0], targetLla[1], in that order.
 //It will find the direction in radians from source to target.
 //Radians are like degrees but in half. It ranges from 180 to -180, with 0 being straight ahead.
