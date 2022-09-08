@@ -20,6 +20,9 @@ nameInterval = setInterval(function(){
 //Array.forEach and Object.values():
 //Use this for things like geofs.aircraft.instance.definition.parts (which is an array)
 //or multiplayer.visibleUsers (which is an object that can be converted to an array)
+//NOTE: for the code inside the "forEach" statement, use "e" to reference the parent array.
+//so if "array" is "geofs.aircraft.instance.definition.parts", you can use "console.log(e.name)" to log
+//the name of each part in the console.
 
 //Set "array" to the relevant array (like "geofs.aircraft.instance.definition.parts")
 array.forEach(function(e){
