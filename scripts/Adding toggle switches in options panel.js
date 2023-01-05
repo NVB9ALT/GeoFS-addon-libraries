@@ -29,8 +29,10 @@ toggleE.addEventListener("click", geofs.example.update);
 function exampleFunction() {
    if (exampleVar == true) {
 console.log("Addon on")
+//code here
    } else {
 console.log("Addon off")
+//code here
    }
 }
 exampleInterval = setInterval(function(){exampleFunction()},1000)
