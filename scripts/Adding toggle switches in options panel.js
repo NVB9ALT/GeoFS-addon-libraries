@@ -1,6 +1,7 @@
 //If you need to add a switch in the options panel to toggle some feature of your addon, this is how to do it.
 //PLEASE NOTE: replace all "example"s with a word relevant to your addon.
-//So if you're making condensation effects, "geofs.example" becomes "geofs.condensation", and "exampleVar" becomes "condensationVar".
+//So if you're making condensation effects, "geofs.example" becomes "geofs.condensation", and "exampleVar" becomes "condensationVar",
+//and set "toggleE" to "toggleCons". Hopefully you get the idea.
 
 //Toggle switch code
 geofs.example = {};
