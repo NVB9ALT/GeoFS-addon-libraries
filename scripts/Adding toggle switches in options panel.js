@@ -36,4 +36,4 @@ console.log("Addon off")
 //code here
    }
 }
-exampleInterval = setInterval(function(){exampleFunction()},1000)
+exampleInterval = setInterval(function(){exampleFunction()},100)
