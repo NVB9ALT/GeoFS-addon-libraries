@@ -3,9 +3,7 @@
 //You can play around with the worldPosition and other values, some documentation on that is at the bottom.
 
 let whiteSmokeEmitter = new geofs.fx.ParticleEmitter({
-            anchor: {
-                        worldPosition: [0, 0, 0]
-                    },
+            anchor: [0, 0, 0]
             duration: 1E10,
             rate: .05,
             life: 4E4,
@@ -44,8 +42,7 @@ let darkSmokeEmitter = new geofs.fx.ParticleEmitter({
 darkSmokeEmitter.destroy()
 
 //Variables:
-//anchor -> worldPosition: can be set to basically anywhere. Is in the aircraft's frame of reference,
-//however I have not had success with setting it with variables.
+//anchor: can be set to basically anywhere. Is in the aircraft's frame of reference, and can be set with variables.
 //duration: how long the smoke emitter lasts. I don't usually mess around with this.
 //rate: this presumably affects the density of the smoke trail.
 //life: this affects how long the smoke trail lasts. It's essentially how long each individual smoke particle will last.
