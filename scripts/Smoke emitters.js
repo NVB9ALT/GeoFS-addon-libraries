@@ -3,7 +3,7 @@
 //You can play around with the worldPosition and other values, some documentation on that is at the bottom.
 
 let whiteSmokeEmitter = new geofs.fx.ParticleEmitter({
-            anchor: [0, 0, 0]
+            anchor: [0, 0, 0],
             duration: 1E10,
             rate: .05,
             life: 4E4,
